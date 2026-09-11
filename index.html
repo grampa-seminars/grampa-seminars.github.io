@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRAMPA Seminars</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  <div class="hero">
+    <div class="card peach">
+      <h1>GRAMPA</h1>
+      <p class="expansion"><b>G</b>eneral <b>R</b>elativity from <b>AMP</b>litudes <b>A</b>lliance</p>
+      <p class="lede">An online seminar series at the intersection of general relativity and scattering amplitudes.</p>
+      <div class="tags">
+        <span class="pill">Online</span>
+        <span class="pill">Biweekly, Mondays</span>
+        <span class="pill">14:00 CET / CEST</span>
+        <a class="pill" href="poster/poster.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
+      </div>
+      <div class="btn-row">
+        <a class="btn" href="#subscribe">Join the mailing list</a>
+        <a class="btn light" href="#past">Browse past talks</a>
+        <a class="btn light" href="#organisers">Organisers</a>
+      </div>
+    </div>
+
+    <div class="card next">
+      <span class="pill dark">Next seminar</span>
+      <!-- Filled from first block of upcoming_talks.md -->
+      <p class="date"></p>
+      <p class="who"></p>
+      <p class="title"></p>
+      <p class="abs"></p>
+    </div>
+  </div>
+
+
+  <section id="upcoming">
+    <div class="sec-head"><h2>Upcoming seminars</h2></div>
+    <div class="strip">Biweekly on Mondays, 14:00 CET / CEST. Zoom link goes out on the mailing list.</div>
+    <!-- Rendered from upcoming_talks.md -->
+    <div class="grid talks" id="upcoming-talks"><p class="placeholder">Loading&hellip;</p></div>
+  </section>
+
+  <section id="subscribe">
+    <div class="sec-head"><h2>Mailing list</h2></div>
+    <div class="mail">
+      <div class="card aqua">
+        <span class="pill dark">Subscribe</span>
+        <p class="howto">Announcements, speaker information, and connection details go out on a Google Group. To join:</p>
+        <ol class="howto">
+          <li><span>Press the button. It opens an email to the subscribe address.</span></li>
+          <li><span>Send it. Body can be empty.</span></li>
+          <li><span>Reply to the confirmation message Google Groups sends back. <b>Important:</b> because of a bug on Google's side, the "Join group" button in that email does not work. You have to reply to the email; even a blank reply will subscribe you.</span></li>
+        </ol>
+        <div class="btn-row">
+          <a class="btn" href="mailto:grampa-seminars+subscribe@googlegroups.com?subject=Subscribe%20to%20GRAMPA%20seminars&body=Please%20subscribe%20me%20to%20the%20GRAMPA%20seminar%20mailing%20list.%20(Press%20send%2C%20then%20reply%20to%20the%20confirmation%20email%20from%20Google%20Groups%20to%20complete%20the%20subscription.)">Subscribe by email</a>
+        </div>
+      </div>
+      <div class="card">
+        <span class="pill">Addresses</span>
+        <p class="fine">Subscribe: <code>grampa-seminars+subscribe@googlegroups.com</code></p>
+        <p class="fine">Unsubscribe: <code>grampa-seminars+unsubscribe@googlegroups.com</code></p>
+        <p class="fine">List: <code>grampa-seminars@googlegroups.com</code></p>
+        <p class="fine">Unsubscribe any time with the link at the bottom of any list email, or send a blank message to the unsubscribe address.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="past">
+    <div class="sec-head"><h2>Past speakers</h2><span class="count" id="talk-count">0</span></div>
+    <div class="strip">Click a talk for the abstract. Newest first.</div>
+    <!-- Rendered from past_talks.md -->
+    <div class="grid talks" id="talks"><p class="placeholder">Loading&hellip;</p></div>
+  </section>
+
+  <dialog id="talk-dialog" closedby="any">
+    <span class="pill dark" id="dialog-kind">Talk</span>
+    <h3></h3>
+    <p class="meta"></p>
+    <div class="abs"></div>
+    <form method="dialog"><button class="btn light">Close</button></form>
+  </dialog>
+
+  <section id="organisers">
+    <div class="sec-head"><h2>Organisers</h2></div>
+    <!-- Rendered from organizers.md -->
+    <div class="grid" id="organisers-list"><p class="placeholder">Loading&hellip;</p></div>
+    <div class="strip contact">Speaker suggestions and questions: write to the organisers or to <a href="mailto:grampa.seminars@gmail.com">grampa.seminars@gmail.com</a>.</div>
+  </section>
+
+  <section id="workshops">
+    <div class="sec-head"><h2>Associated in-person workshops</h2></div>
+    <!-- Rendered from workshops.md -->
+    <div class="grid" id="workshops-list"><p class="placeholder">Loading&hellip;</p></div>
+  </section>
+
+  <footer>
+    <span>GRAMPA &middot; General Relativity from Amplitudes Alliance</span>
+    <span>Website + Setup by Raj Patil &middot; Design after alfred-dev.com + Claude</span>
+  </footer>
+</main>
+
+<script src="site.js"></script>
+</body>
+</html>
