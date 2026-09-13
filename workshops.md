@@ -16,8 +16,8 @@ Link: https://indico.global/event/14299/overview
 In-person edition of the GRAMPA seminar series. Organised by Matteo Sergola, Nathan Moynihan and Andres Luna.
 
 ## GRAMPA 2024
-Where: ICMS, Edinburgh
-Date: 2024
-Link: https://www.icms.org.uk/GRAMPA
+Where: ICMS, Bayes Centre, Edinburgh
+Date: 22–25 January 2024
+Link: https://icms.ac.uk/archive/workshop/general-relativity-from-amplitudes-alliance-grampa/
 
-First in-person GRAMPA meeting, held at the International Centre for Mathematical Sciences.
+First in-person GRAMPA workshop, for early-career researchers working on scattering amplitudes applied to gravity. Organised by William Emond, Andres Luna and Nathan Moynihan.
