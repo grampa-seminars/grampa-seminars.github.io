@@ -96,6 +96,7 @@ a.pill:hover { background: var(--sand); }
   transition: transform .08s, box-shadow .08s;
 }
 .btn.light { background: #fff; color: var(--ink); }
+.btn.small { font-size: 14px; padding: 8px 14px; }
 .btn:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink); }
 .btn:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
 .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
@@ -127,7 +128,8 @@ section { margin-top: 44px; }
   padding: 2px 12px;
   transform: rotate(-2deg);
 }
-.strip.contact { margin-top: 18px; margin-bottom: 0; }
+.strip.contact { line-height: 2.2; }
+.strip.contact a.pill { margin-left: 6px; line-height: 1.4; color: var(--ink); text-transform: none; }
 .strip a { color: #fff; }
 .strip {
   background: var(--ink);
@@ -158,7 +160,7 @@ section { margin-top: 44px; }
 @media (max-width: 800px) { .mail { grid-template-columns: 1fr; } }
 .mail .howto { font-size: 15px; }
 .mail p.howto { margin-top: 14px; }
-.mail .btn-row { margin-top: 18px; }
+.mail .card > .btn { margin-bottom: 6px; line-height: 1.3; padding: 5px 12px; }
 .mail ol.howto { list-style: none; counter-reset: step; margin-top: 18px; }
 .mail .howto li { counter-increment: step; display: grid; grid-template-columns: 2em 1fr; column-gap: 8px; align-items: start; margin-bottom: 8px; }
 .mail .howto li::before { content: counter(step); font-family: var(--font-mono); font-size: 13px; font-weight: 500; text-align: center; line-height: 1.6; background: var(--ink); color: #fff; border: 2px solid var(--ink); }
@@ -195,7 +197,6 @@ section { margin-top: 44px; }
 .shop h3 { margin-top: 12px; }
 .shop .where { font-weight: 500; margin-bottom: 8px; }
 .shop .desc { font-size: 14px; margin-bottom: 16px; }
-.shop .btn { font-size: 14px; padding: 8px 14px; }
 #organisers-list > :nth-child(3n+1) { background: var(--sky); }
 #organisers-list > :nth-child(3n+2) { background: var(--mint); }
 #organisers-list > :nth-child(3n+3) { background: var(--sand); }

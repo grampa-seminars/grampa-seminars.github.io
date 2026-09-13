@@ -68,7 +68,7 @@ load('workshops.md', 'workshops-list', function (w) {
   c.appendChild(el('h3', null, w.title));
   if (w.where) c.appendChild(el('p', 'where', w.where));
   if (w.body) c.appendChild(el('p', 'desc', w.body));
-  if (w.link) { var a = el('a', 'btn light', 'Workshop page \u2192'); a.href = w.link; a.target = '_blank'; a.rel = 'noopener'; c.appendChild(a); }
+  if (w.link) { var a = el('a', 'btn light small', 'Workshop page \u2192'); a.href = w.link; a.target = '_blank'; a.rel = 'noopener'; c.appendChild(a); }
   return c;
 });
 load('organizers.md', 'organisers-list', function (o) {
