@@ -21,7 +21,7 @@ Date: 9 November 2026, 14:00 CET
 
 Title and abstract to be announced.
 
-## Speaker to be announced
+## Title to be announced
 Speaker: Emanuele Rosi
 Date: 23 November 2026, 14:00 CET
 
