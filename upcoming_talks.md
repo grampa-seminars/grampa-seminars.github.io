@@ -22,7 +22,7 @@ Date: 9 November 2026, 14:00 CET
 Title and abstract to be announced.
 
 ## Speaker to be announced
-Speaker: TBA
+Speaker: Emanuele Rosi
 Date: 23 November 2026, 14:00 CET
 
 Title and abstract to be announced.
