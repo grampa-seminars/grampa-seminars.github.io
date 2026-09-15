@@ -9,8 +9,8 @@ Date: 12 October 2026, 14:00 CEST
 
 Title and abstract to be announced.
 
-## Speaker to be announced
-Speaker: TBA
+## Title to be announced
+Speaker: Pablo Matasan
 Date: 26 October 2026, 14:00 CET
 
 Title and abstract to be announced.
