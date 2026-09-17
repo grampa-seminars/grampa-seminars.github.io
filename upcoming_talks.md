@@ -26,3 +26,9 @@ Speaker: Emanuele Rosi
 Date: 23 November 2026, 14:00 CET
 
 Title and abstract to be announced.
+
+## Title to be announced
+Speaker: Vincent He
+Date: 7 December 2026, 14:00 CET
+
+Title and abstract to be announced.
