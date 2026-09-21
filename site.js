@@ -12,7 +12,8 @@ function parseBlocks(md) {
 }
 function load(file, id, render) {
   var box = document.getElementById(id);
-  return fetch(file).then(function (r) { return r.text(); }).then(function (md) {
+  // no-cache: revalidate with the server each load (GitHub Pages caches for 10 min otherwise)
+  return fetch(file, { cache: 'no-cache' }).then(function (r) { return r.text(); }).then(function (md) {
     var items = parseBlocks(md); box.innerHTML = '';
     items.forEach(function (it) { box.appendChild(render(it)); });
     return items;
