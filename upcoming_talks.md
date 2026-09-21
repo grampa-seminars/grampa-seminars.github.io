@@ -15,8 +15,8 @@ Date: 26 October 2026, 14:00 CET
 
 Title and abstract to be announced.
 
-## Speaker to be announced
-Speaker: TBA
+## Title to be announced
+Speaker: Konstantinos Papadimos
 Date: 9 November 2026, 14:00 CET
 
 Title and abstract to be announced.
