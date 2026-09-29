@@ -3,11 +3,11 @@
      "## " + talk title, then "Speaker:" and "Date:" lines, blank line, abstract.
      Fall 2026 dates are preliminary; speakers to be confirmed. -->
 
-## Speaker to be announced
-Speaker: TBA
+## Resumming the Shockwave with Black Hole Response Theory
+Speaker: Lara Bohnenblust
 Date: 12 October 2026, 14:00 CEST
 
-Title and abstract to be announced.
+Abstract to be announced.
 
 ## Title to be announced
 Speaker: Pablo Matasan
